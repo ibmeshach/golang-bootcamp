@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	basics.DataTypesMain()
+	basics.ArithmeticOperatorsMain()
 }
