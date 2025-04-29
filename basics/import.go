@@ -1,11 +1,11 @@
-package main
+package basics
 
 import (
 	"fmt"
 	https "net/http"
 )
 
-func main() {
+func ImportMain() {
 	fmt.Println("Hello, World!")
 
 	resp, err := https.Get("https://jsonplaceholder.typicode.com/posts/1")
